@@ -43,7 +43,3 @@ Watch this repo to stay updated with my progress, or star it if you find it insp
 ## Let's Code!
 
 Here's to the next 100 days of Python coding. Let the journey begin!
-
-### License
-
-[License](LICENSE.md)
