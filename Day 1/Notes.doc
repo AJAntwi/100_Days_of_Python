@@ -1,0 +1,80 @@
+Pieces of text such as the Hello World in print("Hello World!") are known as Strings.
+Strings are just strings of text.
+
+In writing print commands, you can add "\n" to print multiple statements like so:
+
+print("Hello World\nHello World") and it will be printed 2 times.
+
+print("Hello World\nHello World\nHello World") and it will be printed 3 times.
+
+We can also add multiple strings. This is known as "Concatenation". We use "+" sign to do this.
+Example:
+print("Hello" + "Augustine")
+
+print("Hello " + "Augustine") would leave a space between "Hello" and "Augustine" when printed
+because we have left a space right after the word, "Hello" in the string.
+
+Pieces of strings such as the Hello World in print("Hello World!") are known as Strings.
+Strings are just strings of text.
+
+In writing print commands, you can add "\n" to print multiple statements like so:
+
+print("Hello World\nHello World") and it will be printed 2 times.
+
+print("Hello World\nHello World\nHello World") and it will be printed 3 times.
+
+We can also add multiple strings. This is known as "Concatenation". We use "+" sign to do this.
+Example:
+print("Hello" + "Augustine")
+
+print("Hello " + "Augustine") would leave a space between "Hello" and "Augustine" when printed
+because we have left a space right after the word, "Hello" in the string.
+
+C:\Users\kantw\Documents\Learning\thecyberdev\personal\Python\100_Days_of_Python\Day 1\assets\Screenshot 2025-07-31 222243.png
+
+You can also just insert another string with a space in it like so:
+print("Hello" + " " + "Augustine")
+
+print functions are used to output strings.
+input functions allow the user to input a response to the prompt. Like so:
+input("What is your name? ")
+
+Variables: This is a data type that allows you to store value for later use or reference.
+Using the input example from earlier:
+
+name = input("What is your name? ")
+
+'name' here is the name of the variable we are using to store the name of the user.
+
+Lets say we want to find the length of the user's name. How would we do this?
+This brings us to the len() function and it is used this way:
+
+name = "Jack"
+print(len(name))
+
+Lets say you want to print the length of the name the user inputs. Do this in one line of code.
+Answer: print(len(input("What is your name?")))
+
+OR 
+
+name = input("What is your name? ")
+print(len(name))
+
+OR 
+
+username = input("What is your name? ")
+length = len(username)
+print(length)
+
+We have 2 variables glass1 and glass2. glass1 contains milk and glass2 contains juice.
+Write 3 lines of code to switch the contents of the variables.
+You are not allowed to type the words "milk" or "juice".
+You are only allowed to use variables to solve this exercise. 
+
+glass1 = "milk"
+glass2 = "juice"
+
+Answer:
+Glass3 = glass2
+Glass4 = glass1
+print(Glass3 + "\n" + Glass4)
