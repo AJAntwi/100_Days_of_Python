@@ -1,0 +1,28 @@
+Today's learning objectives are:
+1. Data Types
+2. Numbers
+3. Operations
+4. Type Conversions
+5. f-strings
+
+Data Types
+1. strings 2. Integer 3. Floats 4. Booleans
+
+Pulling out a particular element from a string is called Subscripting.
+Example:
+print("Hello"[2])
+
+This will print the third character (l) in the string "Hello" since we start counting from zero
+in programming.
+
+Integers are whole numbers; numbers without any decimals.
+print("123" + "345") will output 123345 instead of the sum of the numbers because python still
+sees them as strings not numbers. To sum the numbers, do this instead:
+
+print(123 + 345) 
+
+For large numbers like 123,456,789 we would need to write them like this 123_456_789
+with underscores, so Python will be able to read them properly.
+
+Numbers with decimals are simply called Floats. Example is pie, 3.14159.
+Booleans are simply either True or False values.
